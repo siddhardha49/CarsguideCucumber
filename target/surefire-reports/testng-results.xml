@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47536" started-at="2021-07-05T01:24:50Z" finished-at="2021-07-05T01:25:38Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunCuke@5315b42e]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="47536" started-at="2021-07-05T01:24:50Z" finished-at="2021-07-05T01:25:38Z">
+      <class name="runner.RunCuke">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.RunCuke@5315b42e]" name="setUpClass" is-config="true" duration-ms="275" started-at="2021-07-04T21:24:50Z" finished-at="2021-07-04T21:24:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:runner.RunCuke@5315b42e]" name="setup" is-config="true" duration-ms="260" started-at="2021-07-04T21:24:51Z" finished-at="2021-07-04T21:24:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunCuke@5315b42e]" name="feature" duration-ms="23125" started-at="2021-07-04T21:24:51Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-07-04T21:25:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acceptance testing to validate search cars page is working]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunCuke@5315b42e]" name="feature" duration-ms="23667" started-at="2021-07-04T21:25:14Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-07-04T21:25:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acceptance testing to validate used search cars page is working]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunCuke@5315b42e]" name="tearDownClass" is-config="true" duration-ms="80" started-at="2021-07-04T21:25:38Z" finished-at="2021-07-04T21:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunCuke -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
